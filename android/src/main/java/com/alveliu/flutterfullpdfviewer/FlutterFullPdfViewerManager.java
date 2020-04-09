@@ -31,6 +31,7 @@ class FlutterFullPdfViewerManager {
                 .enableSwipe(true)
                 .swipeHorizontal(false)
                 .enableDoubletap(true)
+                .spacing(10)
                 .defaultPage(0)
                 .load();
     }
